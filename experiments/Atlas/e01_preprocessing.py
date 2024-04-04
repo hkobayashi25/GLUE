@@ -22,6 +22,10 @@ from networkx.algorithms.bipartite import biadjacency_matrix
 
 import scglue
 
+import sys
+print(sys.path)
+
+
 # %%
 PATH = "e01_preprocessing"
 os.makedirs(PATH, exist_ok=True)
